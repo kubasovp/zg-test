@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZG test</title>
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+
+<body>
+  <div id="app" class="app">
+    <div class="level">
+      <div class="player"></div>
+    </div>
+    <div class="rating">
+      <h3 class="rating__title">Рейтинг игроков</h3>
+      <button class="btn close__btn"></button>
+      <table class="rating__table">
+        <tbody>
+          <tr>
+            <th>Место</th>
+            <th>Имя Фамилия</th>
+            <th>Опыт</th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="controls">
+      <div class="friends__slider">
+        <button class="btn arrow__btn arrow__btn-left"></button>
+        <div class="friends__wrapper">
+          <ul class="friends__list">
+            <li>
+              <img src="assets/friend-img.png" alt="">
+              <button class="btn friend__btn"></button>
+            </li>
+            <li><img src="assets/friend-img.png" alt=""></li>
+            <li><img src="assets/friend-img.png" alt=""></li>
+            <li><img src="assets/friend-img.png" alt=""></li>
+            <li><img src="assets/friend-img.png" alt=""></li>
+            <li><img src="assets/friend-img.png" alt=""></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <button class="btn arrow__btn arrow__btn-right"></button>
+      </div>
+      <button class="btn chat__btn"></button>
+      <button class="btn go__btn">В универ</button>
+      <button class="btn mail__btn"></button>
+      <button class="btn rating__btn"></button>
+    </div>
+  </div>
+
+  <script src="src/data.js"></script>
+  <script src="src/index.js"></script>
+</body>
+
+</html>
